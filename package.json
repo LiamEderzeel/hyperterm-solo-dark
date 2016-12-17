@@ -1,0 +1,16 @@
+{
+  "name": "hyperterm-solo-dark",
+  "version": "1.0.0",
+  "description": "Theme to fit with Solo-Dark atom theme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hyperterm",
+    "hyperterm-package",
+    "hyperterm-util"
+  ],
+  "author": "Liam Ederzeel",
+  "license": "MIT"
+}
