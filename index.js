@@ -1,24 +1,42 @@
+/*
+
+ @@@@@@    @@@@@@   @@@        @@@@@@
+@@@@@@@   @@@@@@@@  @@@       @@@@@@@@
+!@@       @@!  @@@  @@!       @@!  @@@
+!@!       !@!  @!@  !@!       !@!  @!@
+!!@@!!    @!@  !@!  @!!       @!@  !@!
+ !!@!!!   !@!  !!!  !!!       !@!  !!!
+     !:!  !!:  !!!  !!:       !!:  !!!
+    !:!   :!:  !:!   :!:      :!:  !:!
+:::: ::   ::::: ::   :: ::::  ::::: ::
+:: : :     : :  :   : :: : :   : :  :
+--------------------------------------
+         Hyperterm-Solo-Dark
+--------------------------------------
+*/
+
 const backgroundColor = 'rgb(28, 28, 28)'
-const foregroundColor = rgba(255,255,255, 0.9)'
+const foregroundColor = 'rgb( 180, 180, 180)'
 const borderColor = 'rgba(255,255,255,.1)'
 const cursorColor = 'rgba(255,255,255,.4)'
 
+
 const colors = {
     black       : backgroundColor,
-    red         : '#dd6964', // red
-    green       : '#8ee386', // green
-    yellow      : '#ffd080', // yellow
-    blue        : '#4eacff', // blue
-    magenta     : '#fa9aff', // pink
-    cyan        : '#88afff', // cyan
+    red         : '#ed3535', // red
+    green       : '#5bce5b', // green
+    yellow      : '#f4d345', // yellow
+    blue        : '#7aa6da', // blue
+    magenta     : '#c397d8', // pink
+    cyan        : '#75ccbb', // cyan
     white       : '#f1f1f0', // light gray
     lightBlack  : '#666666', // medium gray
-    lightRed    : '#f58783', // red
-    lightGreen  : '#aafba2', // green
-    lightYellow : '#ffe89c', // yellow
-    lightBlue   : '#6ec5f9', // blue
-    lightMagenta: '#ffb2ff', // pink
-    lightCyan   : '#56b6c2', // cyan
+    lightRed    : '#ed3535', // red
+    lightGreen  : '#5bce5b', // green
+    lightYellow : '#f4d345', // yellow
+    lightBlue   : '#7aa6da', // blue
+    lightMagenta: '#c397d8', // pink
+    lightCyan   : '#75ccbb', // cyan
     colorCubes  : '#ffffff', // white
     grayscale   : foregroundColor
 }
@@ -33,7 +51,7 @@ exports.decorateConfig = (config) => {
         termCSS: `
         ${config.termCSS || ''}
         x-screen {
-            -webkit-font-smoothing: antialias;
+            // -webkit-font-smoothing: antialias;
         }
         `,
         css: `
