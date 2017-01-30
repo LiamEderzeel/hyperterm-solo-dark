@@ -3,7 +3,7 @@
 Simplistic and dark theme for [hyper](https://hyper.is/).
 
 <img
-src="http://liamederzeel.com/media/hperterm-solo-dark_screenshot.png" />
+src="http://liamederzeel.com/media/hyperterm-solo-dark_screenshot.pn" />
 
 ## How to use
 
