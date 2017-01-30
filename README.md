@@ -2,7 +2,8 @@
 
 Simplistic and dark theme for [hyper](https://hyper.is/).
 
-<img src="https://cldup.com/iKSFIa2GlW.png" width=500 />
+<img
+src="http://liamederzeel.com/media/hperterm-solo-dark_screenshot.png" />
 
 ## How to use
 
